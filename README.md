@@ -125,9 +125,9 @@ https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeC
 
 ## Customers and Transactions Source Collections:
 
-![Alt text](/ss001.jpg?raw=true "customers Collection")
-![Alt text](/ss002.jpg?raw=true "transactions Collection")
+![Alt text](/ss001.png?raw=true "customers Collection")
+![Alt text](/ss002.png?raw=true "transactions Collection")
 
 ## After the similar records matched, it is merged under master_customers collection 
 
-![Alt text](/ss002.jpg?raw=true "master_customers collection")
+![Alt text](/ss002.png?raw=true "master_customers collection")
