@@ -40,15 +40,9 @@ for i in range(M):
 
 # User friendly similarity threshold
 similarity_threshold=75
-clustering = AgglomerativeClustering
-                (
-                n_clusters=None, 
-                affinity="precomputed", 
-                compute_full_tree=True, 
-                linkage="single", 
-                distance_threshold=(100-similarity_threshold)/100
-                )
-                .fit(distance_matrix)
+
+# execute single-linkage clustering algorithm
+clustering = AgglomerativeClustering(n_clusters=None, affinity="precomputed", compute_full_tree=True, linkage="single", distance_threshold=(100-similarity_threshold)/100).fit(distance_matrix)
 
 # Show how many clusters are generated
 # If the value is equal to number of customers then no merge operation happened
