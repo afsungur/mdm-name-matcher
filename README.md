@@ -130,4 +130,4 @@ https://scikit-learn.org/stable/modules/generated/sklearn.cluster.AgglomerativeC
 
 ## After the similar records matched, it is merged under master_customers collection 
 
-![Alt text](/ss002.png?raw=true "master_customers collection")
+![Alt text](/ss003.png?raw=true "master_customers collection")
