@@ -52,10 +52,13 @@ print(f"Number of clusters: {clustering.n_clusters_}")
 #print(clustering.labels_)
 
 # Print the cluster 0 elements -- which records are merged for the cluster 0
+print("==============================================================")
+print("Example of one merge, the following 2 different customers are going to merged into one single record")
 for i in range(len(clustering.labels_)):
         if (clustering.labels_[i]==0):
             print(f"Name: {fullNameArray[i][0]}")
-            print(f"Id: {fullNameArray[i][1]}")
+            print(f"Source Customer Id: {fullNameArray[i][1]}")
+print("==============================================================")
 
 print("Merging started ...")
 # Merging the records into master_customers collection together with similar customer records and their transactions
