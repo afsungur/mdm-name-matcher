@@ -15,12 +15,14 @@ OS tool:
 
  - python3
  
-Python3 Libraries
+Python3 Libraries (install those with pip3)
 
  - scikit-learn
  - pymongo
  - numpy
- - leven
+ - leven (https://pypi.org/project/leven/)
+
+I've used Python 3.9.6 and Pip3: pip 21.1.3 under macOS, it worked fine.
 
 # Files
 
